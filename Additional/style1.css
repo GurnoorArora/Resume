@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.projects
+{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.project
+{
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    margin-left: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.heading-project
+{
+    /* border: 2px solid red; */
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.description
+{
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    border: 5px solid rgb(255, 77, 0);
+    margin-left: 10px;
+}
+.image img
+{
+    border: 5px solid rgb(255, 77, 0);
+}
